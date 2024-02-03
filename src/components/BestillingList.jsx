@@ -29,7 +29,7 @@ const handleDelete =(id) => {
       BestillingList 
       </h3>
 
-    {apps.length < 1 && <img src="./img/appointment.jpg" width="70%"/>}
+    {apps.length < 1 && <img src="./img/appointment.jpg" alt width="70%"/>}
     
     {apps.map(({id,Tjenestebruker,konsultert,Tjeneste,dag })=> (
     
